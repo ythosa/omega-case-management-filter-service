@@ -1,0 +1,15 @@
+version: "3.3"
+
+networks:
+  omega-case-management:
+    driver: bridge
+
+services:
+  filter-service:
+    build: filter-service
+    command: ./bin/app
+    container_name: ocm-filter-service
+    ports:
+      - "2048:8080"
+    networks:
+      - omega-case-management
