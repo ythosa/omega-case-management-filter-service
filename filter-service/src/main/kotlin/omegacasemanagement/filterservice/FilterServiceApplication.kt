@@ -6,11 +6,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2
 
 @SpringBootApplication
 @EnableSwagger2
-class FilterServiceApplication {
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            runApplication<FilterServiceApplication>(*args)
-        }
-    }
+class FilterServiceApplication
+
+fun main(args: Array<String>) {
+    runApplication<FilterServiceApplication>(*args)
 }
