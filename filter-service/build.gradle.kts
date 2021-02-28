@@ -17,7 +17,7 @@ repositories {
 }
 
 application {
-    mainClass.set("omegacasemanagement.filterservice.FilterServiceApplication")
+    mainClass.set("omegacasemanagement.filterservice.FilterServiceApplicationKt")
 }
 
 dependencies {
